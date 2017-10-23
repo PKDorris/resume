@@ -1,0 +1,167 @@
+/*  Color pallette ******/
+
+/*#12355B  dark blue*/
+/*#BEC7D2  light blue*/
+/*#420039  dark purple*/
+/*#CBB9C9  light purple*/
+/*#DCD5DO  light neutral*/
+/*#F5F3F2  lighter neutral*/
+/*#87919E  Gray*/
+/*#DEE1E4  light gray*/
+/*#D72638  Red*/
+/*#F4C3C8  pink*/
+
+/*https://coolors.co/12355b-420039-dcd5d0-87919e-d72638*/
+
+/* Global styles */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.content-wrap  {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 10px;
+    min-height: 175px;
+    clear: left;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+}
+
+.col-wide h2 {
+    color: #BEC7D2;
+}
+
+
+body {
+    background: #DEE1E4;
+    color:  #12355B;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+/*    font-family: 'Lobster', cursive;*/
+    font-family: 'Oleo Script', cursive;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+
+.col-wide h2 {
+    color: #BEC7D2;
+}
+
+
+a {
+    color: #BEC7D2;
+/*    color: #420039;*/
+    margin: 10px;
+}
+
+a:hover {
+    color: #F4C3C8;
+/*    color:  #D72638;*/
+/*    text-decoration-color: #D72638;*/
+}
+
+li{
+    margin: 10px 0;
+
+}
+
+hr {
+    color: #12355B;
+    border-style: solid;
+    border-width: .5px;
+
+}
+
+/* Header and Footer */
+
+header, footer {
+    background: #12355B;
+    color: #F5F3F2;
+/*    background: #CBB9C9;*/
+/*    color: #12355B;*/
+}
+
+/* header */
+
+/*header {*/
+/*    text-align: center;*/
+/*}*/
+
+
+header h1, header h2 {
+/*    color: #12355B;*/
+    margin: 0;
+}
+
+.profile-img {
+    width: 200px;
+    border-radius: 50%;
+/*    float: left;*/
+/*    margin-right: 20px;*/
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+
+/*  padded area becomes active link area  */
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/* Best Practices */
+
+.best-practices {
+        background: #CBB9C9;
+        color: #12355B;
+/*    background: #12355B;*/
+/*    color: #DEE1E4;*/
+}
+
+
+/* Work Experiece */
+
+.work {
+background: #BEC7D2;
+}
+
+
+/* Education */
+
+.education {
+        background: #F4C3C8;
+}
